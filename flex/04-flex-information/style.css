@@ -5,11 +5,40 @@ body {
 img {
   width: 100px;
   height: 100px;
+
 }
 
 .title {
   font-size: 36px;
   font-weight: 900;
+  text-align: center;
+}
+
+.text {
+  text-align: center;
+}
+
+
+
+.flex-container {
+  display: flex;
+  gap:52px;
+  justify-content: center;
+  
+}
+
+.flex-container-vertical-direction {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.flex-item {
+  max-width: 200px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  gap:5px
 }
 
 /* do not edit this footer */
