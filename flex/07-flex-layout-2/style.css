@@ -30,4 +30,5 @@ body {
 
 ul {
   margin: 0px;
+  list-style-type: none;
 }
